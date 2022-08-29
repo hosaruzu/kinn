@@ -4,6 +4,20 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Kinn</title>
+    <link
+      rel="preload"
+      href="../fonts/Roboto-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="../fonts/Jost-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <meta name="theme-color" content="#fff" />
     <meta
       name="apple-mobile-web-app-status-bar-style"
@@ -94,8 +108,16 @@
   </head>
   <body>
     @@include("../blocks/modules/header/header.html")
+    <main class="main">
+      @@include("../blocks/modules/hero/hero.html")
+      @@include("../blocks/modules/shop/shop.html")
+      @@include("../blocks/modules/collection/collection.html")
+      @@include("../blocks/modules/essentials/essentials.html")
+      @@include("../blocks/modules/stories/stories.html")
+      @@include("../blocks/modules/newsletter/newsletter.html")
+      @@include("../blocks/modules/moments/moments.html")
+    </main>
     @@include("../blocks/modules/footer/footer.html")
-    <div class="test">Text</div>
     <script src="js/vendor.js"></script>
     <script src="js/main.js"></script>
   </body>
