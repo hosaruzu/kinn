@@ -7,7 +7,9 @@
   --content-width: 134rem;
   --container-offset-big: 3.2rem;
   --container-offset-small: 1.6rem;
-  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-width: calc(
+    var(--content-width) + (var(--container-offset-small) * 2)
+  );
 
   // colors
   --light-color: #fff;
