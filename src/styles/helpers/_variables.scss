@@ -2,11 +2,16 @@
 // colors
 :root {
   // base
-  // --font-family: "Open Sans", sans-serif;
-  // --content-width: 1170px;
-  // --container-offset: 15px;
-  // --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --font-main: "Roboto", sans-serif;
+  --font-secondary: "Jost", sans-serif;
+  --content-width: 134rem;
+  --container-offset-big: 3.2rem;
+  --container-offset-small: 1.6rem;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
   // colors
   --light-color: #fff;
+  --dark-color: #000;
+  --primary-dark: #56593d;
+  --primary-light: #ffffef;
 }
